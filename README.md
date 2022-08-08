@@ -26,11 +26,11 @@ A very simple debug plugin. You can use it to change your current game level by 
 
 ##### Plugin's smx
 
-
+[level chooser.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/plugins/level%20chooser.smx)
 
 ##### Sourcecode
 
-
+[level chooser.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/scripting/level%20chooser.sp)
 
 ##### Cvars, commands and usage
 
@@ -41,4 +41,4 @@ sm_lv <int>    //Just use it in client console and input a level number to repla
 
 ##### Source and license
 
-[Polaris](https://github.com/lamya3) ([GPLv2]([mqsrv-insurgency-sourcemod-release/LICENSE at main · lamya3/mqsrv-insurgency-sourcemod-release · GitHub](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE)))
+[Polaris](https://github.com/lamya3) ([GPLv2](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
