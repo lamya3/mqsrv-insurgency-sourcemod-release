@@ -12,23 +12,17 @@ Attention: most of plugins in this repository can only work in insurgency2 coope
 
 ---
 
-
-
 ### Contents
 
-- Plugin 1
-
-- Plugin 2
-
-
+- Level chooser
 
 ---
 
-### Plugin 1
+### Level chooser
 
-##### description
+##### Description
 
-
+A very simple debug plugin. You can use it to change your current game level by a command. If you compiled this plugin's sourcecode directly, you can only use it on game mode outpost or survival,  and change level between 0 to 100. (IDK why outpost have level 100 even more......)
 
 ##### Plugin's smx
 
@@ -38,8 +32,13 @@ Attention: most of plugins in this repository can only work in insurgency2 coope
 
 
 
-##### Cvars, commadns and usage
+##### Cvars, commands and usage
 
-
+```c
+//commands
+sm_lv <int>    //Just use it in client console and input a level number to replace <int> (integer between 0 to 100)
+```
 
 ##### Source and license
+
+[Polaris](https://github.com/lamya3) ([GPLv2]([mqsrv-insurgency-sourcemod-release/LICENSE at main · lamya3/mqsrv-insurgency-sourcemod-release · GitHub](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE)))
