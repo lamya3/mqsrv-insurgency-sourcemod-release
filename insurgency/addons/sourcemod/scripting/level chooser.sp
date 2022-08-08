@@ -48,6 +48,7 @@ public Action Command_LevelChange(int client, int args)
     char arg1[32];
     GetCmdArg(1, arg1, sizeof(arg1));
     int Levelset = StringToInt(arg1);
+    //Limiting conditions
     if(StrContains(Gamemode, "outpost", false) == -1 && StrContains(Gamemode, "survival", false) == -1)
     {
         PrintToConsole(client, "[Level Up Plugin] Not available except survival or outpost");
@@ -63,6 +64,6 @@ public Action Command_LevelChange(int client, int args)
         PrintToConsole(client, "[Level Up Plugin] Parameter out of bounds or not a integer! \n //Level maximum = 100 \n //Level minimum = 1 \n //Usage: sm_lv <int Level>");
         return Plugin_Handled;
     }
-    GameRules_SetProp("m_iLevel",StringToInt(arg1));
+    GameRules_SetProp("m_iLevel",StringToInt(arg1));//This is the main about change level
     return Plugin_Handled;
 }
