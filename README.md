@@ -14,7 +14,7 @@ Attention: most of plugins in this repository can only work in insurgency2 coope
 
 ### Contents
 
-- [Level chooser](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release#level-chooser)
+- [Level chooser](#Level chooser)
 
 ---
 
