@@ -1,6 +1,8 @@
 # mqsrv-insurgency-sourcemod
 
-<div align=center>*README also available in Chinese simplified: [中文自述文件]()*</div>
+<div align=center>
+README also available in Chinese simplified: [中文自述文件](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/README_zh_CN.md)
+</div>
 
 A source code repository of sourcemod plugins, which can be used for game insurgency.
 
