@@ -42,3 +42,48 @@ sm_lv <int>    //只需在游戏客户端控制台输入此命令和输入一个
 ##### 来源与许可证
 
 [Polaris](https://github.com/lamya3) ([GPLv2](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+
+### 列表锁定器（1.6.1，1.6.2）
+
+##### 描述
+
+对的，你没有看错... 这个插件有两个版本，他们都是非常简单且有些小毛病。该插件可以强制使你的Playlist（游戏的服务器目录）强制为coop.playlist（标准合作模式），即使你在服务器使用非法的地图，比如说dust2这种自定义地图！1.6.1版本使用了`HookConVarChange()`去代替了1.6.2中的定时器循环，我认为1.6.1消耗更少的服务器性能但是1.6.2更稳定且容易配置。我难以选择一个更好的，所以我决定同时发布这两个版本，让大家自己做选择。
+
+如果你用的是1.6.1版本，你必须使用一个官方地图加入启动参数去启动你的服务器，像是`+map sinjar_coop checkpoint`，然后启动完成后手动通过`map`命令切换到一个自定义地图；如果你用的是1.6.2版本，你可能不需要这样做。
+
+最后，两个版本都不支持官图和自定义地图相互投票切换，你必须去掉mapcyclelist.txt内的任何官方地图。如果你通过游戏内置投票到某个官方地图，你将无法通过内置投票再切换到自定义地图，除非使用换图命令强制切换。
+
+##### 插件文件
+
+[Playlist coop enforcer 1.6.1.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release)
+
+[Playlist coop enforcer 1.6.2.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/plugins/level%20chooser.smx)
+
+##### 插件源代码
+
+[Playlist coop enforcer 1.6.1.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release)
+
+[Playlist coop enforcer 1.6.2.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release)
+
+##### 变量，命令与使用方法
+
+```c
+//这些插件没有命令与变量，即装即用。
+
+//1.6.1
+//使用此插件，需要注意初次开服需要默认地图（-map）为官方COOP列表允许的地图，比如+map tell_coop checkpoint
+//除此之外还需要手动在游戏内在自定义地图和nwi/coop.playlist内允许的地图切换一次
+//否则你的服务器在此操作之前将一直显示CUSTOM列表，通过map命令换地图也一样！你必需进去游戏内操作。
+
+//1.6.2
+//可能会直接开始工作，无需任何操作
+
+//已知问题：
+//1.在换图过程中可能会出现规则实体找不到的错误，对插件效果和游戏没有任何影响；
+//2.服务器不能休眠，这个是为了插件起效果，是强制的；
+//3.你只能在地图循环txt中使用自定义地图，因为在官图状态不能投票给自定义图（除了初次启动的官图）。##### 
+```
+
+##### 来源与许可证
+
+[Polaris](https://github.com/lamya3) ([GPLv2](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
