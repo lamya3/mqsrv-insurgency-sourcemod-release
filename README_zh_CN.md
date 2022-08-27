@@ -4,9 +4,9 @@
 
 为什么我会创建这个仓库：最近我关了我自己的服务器，但是有些插件或者代码是本身是开源的。有些带像是GPL这类许可证的，我必需去公开它（即使基本没有修改）；更多的是，很多来自sourcemod社区、steam讨论组、discord和github的大佬在sourcemod插件编写方便帮助了我很多。尽管我在编程方面很烂，但是我仍希望这个仓库能帮助到像我那样的sourcemod新手和服主。
 
-绝大多数我自己的代码和我修改过，使用GPLv2许可证的源代码会发布在这个仓库。许可证只有GPLv2。如果这个仓库在某方面帮到你，请给我星星，或者去支持代码的原作者（我会尽可能贴出所有代码来源）。
+绝大多数我自己的代码和我修改过，使用GPLv3许可证的源代码会发布在这个仓库。许可证只有GPLv3。如果这个仓库在某方面帮到你，请给我星星，或者去支持代码的原作者（我会尽可能贴出所有代码来源）。
 
-(根据许可证约束，这个仓库的插件、源代码你可以自由使用/修改，甚至可以用在商业用途，但是不得闭源。你必需为客户提供源代码，修改过的代码也必需开源且同样使用GPLv2许可证。直接使用我的代码/插件需要署名我和向使用者提供本仓库的链接，不是我的代码请按照原作者的意愿适当署名)
+(根据许可证约束，这个仓库的插件、源代码你可以自由使用/修改，甚至可以用在商业用途，但是不得闭源。你必需为客户提供源代码，修改过的代码也必需开源且同样使用GPLv3许可证。直接使用我的代码/插件需要署名我和向使用者提供本仓库的链接，不是我的代码请按照原作者的意愿适当署名)
 
 请注意：此仓库绝大多数插件只能在叛乱2的PvE合作模式正常工作。
 
@@ -42,7 +42,7 @@ sm_lv <int>    //只需在游戏客户端控制台输入此命令和输入一个
 
 ##### 来源与许可证
 
-[Polaris](https://github.com/lamya3) ([GPLv2](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+[Polaris](https://github.com/lamya3) ([GPLv3](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
 
 ### 列表锁定器（1.6.1，1.6.2）
 
@@ -82,9 +82,9 @@ sm_lv <int>    //只需在游戏客户端控制台输入此命令和输入一个
 //已知问题：
 //1.在换图过程中可能会出现规则实体找不到的错误，对插件效果和游戏没有任何影响；
 //2.服务器不能休眠，这个是为了插件起效果，是强制的；
-//3.你只能在地图循环txt中使用自定义地图，因为在官图状态不能投票给自定义图（除了初次启动的官图）。##### 
+//3.你只能在地图循环txt中使用自定义地图，因为在官图状态不能投票给自定义图（除了初次启动的官图）。
 ```
 
 ##### 来源与许可证
 
-[Polaris](https://github.com/lamya3) ([GPLv2](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+[Polaris](https://github.com/lamya3) ([GPLv3](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))

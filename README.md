@@ -10,7 +10,7 @@ A source code repository of sourcemod plugins, which can be used for game insurg
 
 So why did I create this repository:  I closed my server few months ago, but the code of some plugins on my server are opensource. Base on their licences, I have to release them; for another, many senior sourcemod coder from sourcemod community, steam discussions, discord and github help me a lot with programming. Although I'm not good at coding at all, but I still hope this repository can help more sourcemod novices or server owners like me.
 
-Most of my code and GPLv2 sourcecode from other authors I was modified will be released in this repository, only GPLv2. If it helps you, please give a star for me or support original author.
+Most of my code and GPLv3 sourcecode from other authors I was modified will be released in this repository, only GPLv3. If it helps you, please give a star for me or support original author.
 
 (There may be ambiguity or difficult to understand what's mean in README, excuse my poor English ...)
 
@@ -48,7 +48,7 @@ sm_lv <int>    //Just use it in client console and input a level number to repla
 
 ##### Source and license
 
-[Polaris](https://github.com/lamya3) ([GPLv2](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+[Polaris](https://github.com/lamya3) ([GPLv3](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
 
 ### Playlist coop enforcer(1.6.1,1.6.2)
 
@@ -93,4 +93,4 @@ Finally, both 2 versions incompatible with bulit-in map in mapcyclelist.txt like
 
 ##### Source and license
 
-[Polaris](https://github.com/lamya3) ([GPLv2](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+[Polaris](https://github.com/lamya3) ([GPLv3](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
