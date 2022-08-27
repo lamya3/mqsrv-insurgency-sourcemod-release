@@ -14,7 +14,8 @@
 
 ### 目录
 
-- [关卡选择器](#level-chooser)
+- [关卡选择器](#关卡选择器)
+- [列表锁定器](#列表锁定器161162)
 
 ---
 
@@ -55,15 +56,15 @@ sm_lv <int>    //只需在游戏客户端控制台输入此命令和输入一个
 
 ##### 插件文件
 
-[Playlist coop enforcer 1.6.1.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release)
+[Playlist coop enforcer 1.6.1.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/plugins/Playlist%20coop%20enforcer%201.6.1.smx)
 
-[Playlist coop enforcer 1.6.2.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/plugins/level%20chooser.smx)
+[Playlist coop enforcer 1.6.2.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/plugins/Playlist%20coop%20enforcer%201.6.2.smx)
 
 ##### 插件源代码
 
-[Playlist coop enforcer 1.6.1.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release)
+[Playlist coop enforcer 1.6.1.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/scripting/Playlist%20coop%20enforcer%201.6.1.sp)
 
-[Playlist coop enforcer 1.6.2.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release)
+[Playlist coop enforcer 1.6.2.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/scripting/Playlist%20coop%20enforcer%201.6.2.sp)
 
 ##### 变量，命令与使用方法
 
