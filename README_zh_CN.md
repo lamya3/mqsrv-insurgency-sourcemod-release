@@ -42,7 +42,7 @@ sm_lv <int>    //只需在游戏客户端控制台输入此命令和输入一个
 
 ##### 来源与许可证
 
-[Polaris](https://github.com/lamya3) ([GPLv3](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+[Polaris](https://github.com/lamya3) ([GPLv3](https://raw.githubusercontent.com/lamya3/mqsrv-insurgency-sourcemod-release/main/LICENSE.md))
 
 ### 列表锁定器（1.6.1，1.6.2）
 
@@ -87,4 +87,4 @@ sm_lv <int>    //只需在游戏客户端控制台输入此命令和输入一个
 
 ##### 来源与许可证
 
-[Polaris](https://github.com/lamya3) ([GPLv3](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+[Polaris](https://github.com/lamya3) ([GPLv3](https://raw.githubusercontent.com/lamya3/mqsrv-insurgency-sourcemod-release/main/LICENSE.md))

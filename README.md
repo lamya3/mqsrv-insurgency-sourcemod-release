@@ -48,7 +48,7 @@ sm_lv <int>    //Just use it in client console and input a level number to repla
 
 ##### Source and license
 
-[Polaris](https://github.com/lamya3) ([GPLv3](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+[Polaris](https://github.com/lamya3) ([GPLv3](https://raw.githubusercontent.com/lamya3/mqsrv-insurgency-sourcemod-release/main/LICENSE.md))
 
 ### Playlist coop enforcer(1.6.1,1.6.2)
 
@@ -93,4 +93,4 @@ Finally, both 2 versions incompatible with bulit-in map in mapcyclelist.txt like
 
 ##### Source and license
 
-[Polaris](https://github.com/lamya3) ([GPLv3](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/LICENSE))
+[Polaris](https://github.com/lamya3) ([GPLv3](https://raw.githubusercontent.com/lamya3/mqsrv-insurgency-sourcemod-release/main/LICENSE.md))
