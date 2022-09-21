@@ -22,6 +22,7 @@ Attention: most of plugins in this repository can only work in insurgency2 coope
 
 - [Level chooser](#level-chooser)
 - [Playlist coop enforcer](#playlist-coop-enforcer161162)
+- [End of outpost](#playlist-coop-enforcer161162)
 
 ---
 
@@ -89,6 +90,35 @@ Finally, both 2 versions incompatible with bulit-in map in mapcyclelist.txt like
 //1.Throw can't find prop errors when changing map, but no hardly affects for game and plugins functions; 
 //2.Server will not hibernate, cuz for maintenance functions;
 //3.You can't vote a custom map when you change your map from a custom map to built-in map last time, so you have to use custom map only in mapcyclelist.txt (but built-in map when server start).
+```
+
+##### Source and license
+
+[Polaris](https://github.com/lamya3) ([GPLv3](https://raw.githubusercontent.com/lamya3/mqsrv-insurgency-sourcemod-release/main/LICENSE.md))
+
+
+
+### End of outpost
+
+##### Description
+
+As we known, we can get an achievement when we play game mode outpost and reach level 20. But maybe you don't know we are unable to win this game, even you reach level 2147483647 (32bit int). You really want to win this game? perhaps you can try this!
+
+This plugin can set a level that judge the status as victory when you reach it. Although NWI seems didn't design a win status for game mode outpost? but I tried to reproduce it with [bob](https://steamcommunity.com/id/TE4R/)'s idea and we made it finally.
+
+##### Plugin's smx
+
+[End of outpost.smx]()
+
+##### Sourcecode
+
+[End of outpost.sp]()
+
+##### Cvars, commands and usage
+
+```c
+//cvar.
+sm_outpost_endlevel 25 //what level we should get victory? integer between 3 to 2147483647, default is 25.
 ```
 
 ##### Source and license
