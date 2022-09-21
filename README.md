@@ -22,7 +22,7 @@ Attention: most of plugins in this repository can only work in insurgency2 coope
 
 - [Level chooser](#level-chooser)
 - [Playlist coop enforcer](#playlist-coop-enforcer161162)
-- [End of outpost](#playlist-coop-enforcer161162)
+- [End of outpost](#end-of-outpost)
 
 ---
 

@@ -16,6 +16,7 @@
 
 - [关卡选择器](#关卡选择器)
 - [列表锁定器](#列表锁定器161162)
+- [前哨胜利补丁](#前哨胜利补丁)
 
 ---
 
@@ -94,9 +95,6 @@ sm_lv <int>    //只需在游戏客户端控制台输入此命令和输入一个
 
 ##### 描述
 
-As we known, we can get an achievement when we play game mode outpost and reach level 20. But maybe you don't know we are unable to win this game, even you reach level 2147483647 (32bit int). You really want to win this game? perhaps you can try this!
-
-This plugin can set a level that judge the status as victory when you reach it. Although NWI seems didn't design a win status for game mode outpost? but I tried to reproduce it with [bob](https://steamcommunity.com/id/TE4R/)'s idea and we made it finally.
 我们都知道，我们可以在前哨的20关取得成就（初次）。但是也许你不知道你根本没法在前哨模式中获得胜利，即使你神乎其技地玩到第2147483647关（32位整数）。你真的很想赢一次前哨模式？也许你可以试试这个插件！
 这个插件可以设定一个关卡数值，当你到达这个预设的关卡数时会自动判定为胜利。尽管NWI貌似没有为前哨模式设计获胜状态？但是我在[bob](https://steamcommunity.com/id/TE4R/)的指导下依然尝试去还原它，最后我们成功了。
 
