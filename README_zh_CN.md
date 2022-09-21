@@ -100,11 +100,11 @@ sm_lv <int>    //只需在游戏客户端控制台输入此命令和输入一个
 
 ##### 插件文件
 
-[End of outpost.smx]()
+[End of outpost.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/plugins/end%20of%20outpost.smx)
 
 ##### 插件源代码
 
-[End of outpost.sp]()
+[End of outpost.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/scripting/end%20of%20outpost.sp)
 
 ##### 变量，命令与使用方法
 

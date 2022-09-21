@@ -108,11 +108,11 @@ This plugin can set a level that judge the status as victory when you reach it. 
 
 ##### Plugin's smx
 
-[End of outpost.smx]()
+[End of outpost.smx](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/plugins/end%20of%20outpost.smx)
 
 ##### Sourcecode
 
-[End of outpost.sp]()
+[End of outpost.sp](https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/insurgency/addons/sourcemod/scripting/end%20of%20outpost.sp)
 
 ##### Cvars, commands and usage
 
