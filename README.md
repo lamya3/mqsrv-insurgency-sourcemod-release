@@ -6,15 +6,15 @@ README also available in Chinese simplified: <a href="https://github.com/lamya3/
 </div>
 <br>
 
-A source code repository of sourcemod plugins, which can be used for game insurgency.
+A source code repository of sourcemod plugins, which can be used for game insurgency. Most of plugins in this repository can only work in insurgency2 cooperative mode normally.
 
-So why did I create this repository:  I closed my server few months ago, but the code of some plugins on my server are opensource. Base on their licences, I have to release them; for another, many senior sourcemod coder from sourcemod community, steam discussions, discord and github help me a lot with programming. Although I'm not good at coding at all, but I still hope this repository can help more sourcemod novices or server owners like me.
+So why did I create this repository: ~~I closed my server few months ago, but~~ the code of some plugins on my server are opensource. Base on their licences, I have to release them; for another, many senior sourcemod coder from sourcemod community, steam discussions, discord and github help me a lot with programming. Although I'm not good at coding at all, but I still hope this repository can help more sourcemod novices or server owners like me.
 
-Most of my code and GPLv3 sourcecode from other authors I was modified will be released in this repository, only GPLv3. If it helps you, please give a star for me or support original author.
+Most of my code and GPLv3 sourcecode from other authors I was modified will be released in this repository. ~~only GPLv3~~ certainly, due to license restriction from external codes, additional license may be used. For more details about that, please refer subsection **Source and license**.
+
+If it helps you, please give a star for me or support pioneer author. 
 
 (There may be ambiguity or difficult to understand what's mean in README, excuse my poor English ...)
-
-Attention: most of plugins in this repository can only work in insurgency2 cooperative mode normally.
 
 ---
 
@@ -95,8 +95,6 @@ Finally, both 2 versions incompatible with bulit-in map in mapcyclelist.txt like
 ##### Source and license
 
 [Polaris](https://github.com/lamya3) ([GPLv3](https://raw.githubusercontent.com/lamya3/mqsrv-insurgency-sourcemod-release/main/LICENSE.md))
-
-
 
 ### End of outpost
 
