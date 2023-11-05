@@ -2,19 +2,18 @@
 
 <br>
 <div align=center>
+GOOGLE TRANSLATED HAHA
+</div>
+<div align=center>
 README also available in Chinese simplified: <a href="https://github.com/lamya3/mqsrv-insurgency-sourcemod-release/blob/main/README_zh_CN.md">中文自述文件</a>
 </div>
 <br>
 
-A source code repository of sourcemod plugins, which can be used for game insurgency. Most of plugins in this repository can only work in insurgency2 cooperative mode normally.
+A source code repository of sourcemod plugins, which can be used for game Insurgency2. Most of them can only be run under `sv_playlist nwi/coop` (but not absolute).
 
-So why did I create this repository: ~~I closed my server few months ago, but~~ the code of some plugins on my server are opensource. Base on their licences, I have to release them; for another, many senior sourcemod coder from sourcemod community, steam discussions, discord and github help me a lot with programming. Although I'm not good at coding at all, but I still hope this repository can help more sourcemod novices or server owners like me.
+By default, my code or some external code I have modified will be released under GPLv3. ~~only GPLv3~~ Certainly, due to license restriction from external codes, additional license may be used. For more details about that, please refer subsection **Source and license**.
 
-Most of my code and GPLv3 sourcecode from other authors I was modified will be released in this repository. ~~only GPLv3~~ certainly, due to license restriction from external codes, additional license may be used. For more details about that, please refer subsection **Source and license**.
-
-If it helps you, please give a star for me or support pioneer author. 
-
-(There may be ambiguity or difficult to understand what's mean in README, excuse my poor English ...)
+Because my English sucks, there may be ambiguity or difficult to understand what's mean in README. I think you should initiate an issue first if you don't understand something (including license-violation or mistake).
 
 ---
 
